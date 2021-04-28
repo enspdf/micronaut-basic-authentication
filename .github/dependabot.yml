@@ -1,0 +1,29 @@
+version: 2
+updates:
+- package-ecosystem: gradle
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "10:00"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: io.micronaut:micronaut-bom
+    versions:
+    - 2.3.0
+    - 2.3.1
+    - 2.3.2
+    - 2.3.3
+    - 2.3.4
+    - 2.4.0
+    - 2.4.1
+    - 2.4.2
+    - 2.4.3
+  - dependency-name: org.codehaus.groovy:groovy-all
+    versions:
+    - 3.0.7
+  - dependency-name: junit:junit
+    versions:
+    - 4.13.1
+  - dependency-name: com.github.johnrengelman.shadow
+    versions:
+    - 6.1.0
