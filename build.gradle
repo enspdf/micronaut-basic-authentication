@@ -34,7 +34,7 @@ dependencies {
     compile "io.micronaut:micronaut-http-server-netty"
     compile "io.micronaut:micronaut-security"
     compileOnly "io.micronaut:micronaut-inject-java"
-    runtime "ch.qos.logback:logback-classic:1.2.3"
+    runtime "ch.qos.logback:logback-classic:1.2.5"
     testCompile "junit:junit:4.12"
     testCompile "io.micronaut:micronaut-inject-java"
     testCompile "org.hamcrest:hamcrest-all:1.3"
